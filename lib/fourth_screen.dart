@@ -10,6 +10,7 @@ class FourthClass extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: new Text(screenName, style: new TextStyle(color: Colors.purple)),
+        iconTheme: new IconThemeData(color: Colors.purple),
         elevation: 0.0,
         centerTitle: true,
         backgroundColor: Colors.white,
